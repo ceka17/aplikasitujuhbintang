@@ -36,7 +36,7 @@
             @if(Auth::guard('costumer')->check())
               <li class="nav-item @yield('index')"><a class="nav-link" href="{{ route('home.index') }}">Home</a></li>
               <li class="nav-item @yield('produk')"><a class="nav-link" href="{{ route('home.product') }}">Produk</a></li>
-              <li class="nav-item @yield('kontak')"><a class="nav-link" href="/contact">Contact</a></li>
+              <!-- <li class="nav-item @yield('kontak')"><a class="nav-link" href="/contact">Contact</a></li> -->
             @else
                 <li class="nav-item @yield('index')"><a class="nav-link" href="{{ route('front.index') }}">Home</a></li>
                 <li class="nav-item @yield('produk')"><a class="nav-link" href="{{ route('front.product') }}">Produk</a></li>
@@ -101,7 +101,7 @@
 							<ul class="list">
 								<li><a href="{{ route('home.index') }}">Home</a></li>
 								<li><a href="{{ route('home.product') }}">Produk</a></li>
-								<li><a href="#">Contact</a></li>
+								<!-- <li><a href="#">Contact</a></li> -->
 							</ul>
 						</div>
 					</div>
