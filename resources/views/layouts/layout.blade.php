@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>Aroma Shop - @yield('title')</title>
+  <title>Tujuh Bintang</title>
     {{-- <link rel="icon" href="img/Fevicon.png" type="image/png"> --}}
   <link rel="stylesheet" href="{{asset("assets/vendors/bootstrap/bootstrap.min.css")}}">
   <link rel="stylesheet" href="{{asset("assets/vendors/fontawesome/css/all.min.css")}}">
@@ -88,7 +88,7 @@
 						<div class="single-footer-widget tp_widgets">
 							<h4 class="footer_title large_title">Our Mission</h4>
 							<p>
-								Memperkenalkan produk asli Majalengka kepada Indonesia, dengan kualitas terbaik.
+								Memperkenalkan produk asli Bulukumba kepada Indonesia, dengan kualitas terbaik.
 							</p>
 							<p>
 								Memperkenalkan produk lokal dengan kualitas internasional.
